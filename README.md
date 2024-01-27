@@ -8,7 +8,7 @@ Made this for educational purposes only. It's basic DOM manipulation. Feel free 
   - Right-click and select inspect element
   - Press f12 or your OS shortcut
 3. Select the Console Tab
-4. Paste the Script
+4. Paste the content of `index.js`
     - You can set a fixed evaluation grade by changing the `randomChildIndex` to:
       - 0 for O
       - 1 for VS
