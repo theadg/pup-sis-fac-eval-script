@@ -5,8 +5,8 @@ Made this for educational purposes only. It's basic DOM manipulation. Feel free 
 ## Using It
 1. Open the Professor Eval Form. 
 2. Open Dev Tools
-  - Right-click and select inspect element
-  - Press f12 or your OS shortcut
+    - Right-click and select inspect element
+    - Press f12 or your OS shortcut
 3. Select the Console Tab
 4. Paste the content of `index.js`
     - You can set a fixed evaluation grade by changing the `randomChildIndex` to:
