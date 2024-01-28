@@ -1,10 +1,10 @@
 {
   "manifest_version": 3,
   "name": "Auto Evaluator Extension",
-  "version": "1.0",
+  "version": "2.0",
   "description": "Automatically evaluate professors with one click.",
   "action": {
     "default_popup": "popup.html"
   },
-  "permissions": ["activeTab"]
+  "permissions": ["activeTab", "scripting"]
 }
