@@ -19,7 +19,11 @@ Made this for educational purposes only. It's basic DOM manipulation. Feel free 
 
 ## Using It as Extension
 1. Clone the repository
-2. Open Manage Extensions and Turn on Developer Mode
+2. Open `Chrome > Manage Extensions` and `Turn on Developer Mode`
 3. Click Load Unpacked
 4. Select the "Auto Evaluator Extension Folder"
-6. Then Proceed to "Using It:instruction #1" and use the extension!
+6. Go back to your Professor Eval Form 
+7. You may now click on the Extension on your Extensions!
+8. Select your evaluation grade and then press the `Evaluate Me!` button. 
+9. Watch the magic unfold! 
+
