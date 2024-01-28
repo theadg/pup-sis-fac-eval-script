@@ -3,13 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <title>PUPSIS PROF EVAL</title>
+    <link rel="stylesheet" href="popup.css" />
   </head>
   <body>
-    <h4>One Click Auto Evaluator for your Beloved Prof :)</h4>
-    <button type="button" id="evaluate">
-      Evaluate Me!
-    </button>
-
-    <script src="popup.js"></script>
+    <form class="container" action="">
+      <h4>Auto Evaluator</h4>
+      <div class="radio">
+        <div class="arrange">
+          <input type="radio" name="automatedChoices" id="outstanding" value="0"/>
+          <label for="outstanding">Outstanding</label>
+        </div>
+        <div class="arrange">
+          <input type="radio" name="automatedChoices" id="verysatisfactory" value="1"/>
+          <label for="verysatisfactory">Very Satisfactory</label>
+        </div>
+        <div class="arrange">
+          <input type="radio" name="automatedChoices" id="satisfactory" value="2"/>
+          <label for="satisfactory">Satisfactory</label>
+        </div>
+        <div class="arrange">
+          <input type="radio" name="automatedChoices" id="fair" value="3"/>
+          <label for="fair">Fair</label>
+        </div>
+        <div class="arrange">
+          <input type="radio" name="automatedChoices" id="poor" value="4"/>
+          <label for="poor">Poor</label>
+        </div>
+        <div class="arrange">
+          <input type="radio" name="automatedChoices" id="random" value="5" checked/>
+          <label for="random">Random</label>
+        </div>
+      </div>
+      <button type="button" id="evaluate">Evaluate Me!</button>
+    </form>
+    <p>Made with love 💖</p>
+    <script src="popup.js" defer></script>
   </body>
 </html>
+
